@@ -1,0 +1,24 @@
+请你在viberesearch_query_synthesis这个文件夹中实现query的合成。
+
+任务示例如：tasks/sample10/task_001_liquid foundation.json
+
+现在只有user_queries这个字段是ready的，我还需要final_query，initial_query和user_persona这些字段。
+这是一个deepresearch任务，有三种模式，分别是direct / staged / simulated。
+
+1.direct
+直接输入final_query，相当于这个final_query所描述的信息需求是完备的，可以直接与ground truth对应。
+
+2.staged
+分阶段输入user_queries，每次输入一个sub_query，agent都可以多轮搜索，直至信息需求满足，然后再次输入下一个query
+
+3.simulated
+需要模拟一个真实场景，每次输入一个initial_query，然后agent需要主动追问，澄清，然后有一个simulated user，会根据user_persona回答问题，当然不会一次性全部输出想要的信息，agent是需要多轮追问澄清的。
+
+现在user_queries是ready的。
+请你通过已有任务信息，设计合成final_query，initial_query和user_persona的方案，调用LLM，需要精心设计合成的prompt。
+
+对于final_query，需要描述尽可能清晰，当然不能改变query的语义或者说简化query中的约束条件。可以把ground truth中的一些输出格式在final_query中明确了。因此它在合成的时候一定要把ground truth的图输入进去做参考。
+
+对于initial_query和user_persona，首先initial_query需要是一个比较模糊的query，接着user_persona需要包含一些个人人设设定和一些显式约束和隐式约束，agent必须通过追问才能把相关用户真的想要的信息给问出来，接着再去进行搜索。
+
+请你先给出技术方案。

@@ -1,0 +1,92 @@
+# =============================================================================
+# LLM Model Configurations
+#
+# Usage:
+#   python run.py --model-config model_config.yaml --model-profile seed
+#
+# Only LLM connection and sampling parameters go here.
+# Agent, grader, tool configs stay in shell scripts / CLI args.
+# =============================================================================
+
+defaults:
+  user_model: doubao-seed-2-0-pro-260215
+  user_model_url: https://example.com/openai/doubao
+  user_model_api_key: your_api_key_here
+
+profiles:
+  seed2_0_pro:
+    api_type: openai
+    model: doubao-seed-2-0-pro-260215
+    base_url: https://example.com/openai/doubao
+    api_key: your_api_key_here
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+  seed2_0_pro_high:
+    api_type: openai
+    model: doubao-seed-2-0-pro-260215
+    base_url: https://example.com/openai/doubao
+    api_key: your_api_key_here
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+    reasoning_effort: high
+  gemini_3_1_pro:
+    api_type: gemini
+    model: gemini-3.1
+    base_url: https://example.com/gemini
+    api_key: your_api_key_here
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+    thinking_level: high
+  gpt5_4:
+    api_type: azure
+    model: gpt-5.4
+    base_url: https://example.com/openai/gpt5
+    api_key: your_api_key_here
+    api_version: "2024-12-01-preview"
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+  claude_opus_4_6:
+    api_type: claude
+    model: claude-opus-4.6
+    base_url: https://example.com/openai/bedrock_runtime/model/invoke
+    api_key: your_api_key_here
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+    thinking_budget: 16384
+  kimi_k2_6:
+    api_type: deployed
+    model: kimi-k2.6
+    base_url: http://example.com/v1
+    api_key: EMPTY
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+  deeepseek_v4_pro:
+    api_type: deployed
+    model: deepseek-v4-pro
+    base_url: https://example.com/v1
+    api_key: EMPTY
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+  qwen3_5_plus:
+    api_type: deployed
+    model: Qwen3.5-397B-A17B-FP8
+    base_url: http://example.com/v1
+    api_key: EMPTY
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
+  glm_5_1:
+    api_type: deployed
+    model: glm-5.1
+    base_url: http://example.com/v1
+    api_key: EMPTY
+    temperature: 1.0
+    top_p: 0.95
+    max_tokens: 32768
