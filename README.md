@@ -5,8 +5,6 @@
 # VibeSearchBench
 
 [![Tasks](https://img.shields.io/badge/tasks-200-blue)](#tasks)
-[![Domains](https://img.shields.io/badge/domains-20-blue)](#tasks)
-[![Models](https://img.shields.io/badge/models-7-green)](#leaderboard)
 [![Best F1](https://img.shields.io/badge/best_triplet_F1-30.3-green)](#leaderboard)
 [![Paper](https://img.shields.io/badge/paper-PDF-red)](https://vibebench.github.io/VibeSearchBench.github.io/assets/paper.pdf)
 [![Leaderboard](https://img.shields.io/badge/leaderboard-live-purple)](https://vibebench.github.io/VibeSearchBench.github.io/leaderboard.html)
@@ -14,12 +12,9 @@
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/VibeSearchBench/VibeSearchBench)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
-> By far the
-> <span style="color:#dc2626;background:rgba(220,38,38,0.12);padding:0.1em 0.35em;border-radius:4px;font-weight:800">hardest</span>
-> <span style="color:#15803d;background:rgba(22,163,74,0.12);padding:0.1em 0.35em;border-radius:4px;font-weight:800">verifiable</span>
-> <span style="color:#7c3aed;background:rgba(124,58,237,0.12);padding:0.1em 0.35em;border-radius:4px;font-weight:800">long-horizon</span>
-> search benchmark. <br>
-> 200 bilingual tasks | 20 domains | persona-driven progressive disclosure | schema-free knowledge graph evaluation.
+> <span style="color:#dc2626;background:rgba(220,38,38,0.12);padding:0.15em 0.4em;border-radius:4px;font-weight:800;box-shadow:inset 0 -2px 0 rgba(220,38,38,0.45)">Hardest</span> — vague multi-turn proactive search in the wild.<br>
+> <span style="color:#15803d;background:rgba(22,163,74,0.14);padding:0.15em 0.4em;border-radius:4px;font-weight:800;box-shadow:inset 0 -2px 0 rgba(22,163,74,0.4)">Verifiable</span> — schema-free knowledge graph evaluation.<br>
+> <span style="color:#7c3aed;background:rgba(124,58,237,0.14);padding:0.15em 0.4em;border-radius:4px;font-weight:800;box-shadow:inset 0 -2px 0 rgba(124,58,237,0.4)">Long-horizon</span> — persona-driven progressive disclosure.
 
 </div>
 
