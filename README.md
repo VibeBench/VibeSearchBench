@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://vibebench.github.io/VibeSearchBench.github.io/"><img src="https://img.shields.io/badge/🌐-Project_Page-2563eb?style=for-the-badge" alt="Project Page" /></a>
+  <a href="https://vibebench.github.io/VibeSearchBench.github.io/leaderboard.html"><img src="https://img.shields.io/badge/🏆-Leaderboard-7c3aed?style=for-the-badge" alt="Leaderboard" /></a>
   <a href="https://vibebench.github.io/VibeSearchBench.github.io/assets/paper.pdf"><img src="https://img.shields.io/badge/📄-Paper-18181b?style=for-the-badge" alt="Paper" /></a>
   <a href="https://huggingface.co/datasets/VibeSearchBench/VibeSearchBench"><img src="https://img.shields.io/badge/🤗-Dataset-ffd21e?style=for-the-badge" alt="Dataset" /></a>
 </p>
