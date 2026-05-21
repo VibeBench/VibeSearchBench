@@ -15,9 +15,7 @@
   <a href="https://huggingface.co/datasets/VibeSearchBench/VibeSearchBench"><img src="https://img.shields.io/badge/🤗-Dataset-ffd21e?style=for-the-badge" alt="Dataset" /></a>
 </p>
 
----
-
-<p align="center">
+<p align="center" style="margin-top:1.1em;margin-bottom:0.35em">
   <strong>
     By far the
     <span style="color:#dc2626;background:rgba(220,38,38,0.12);padding:0.15em 0.45em;border-radius:5px;font-weight:800;border-bottom:2px solid rgba(220,38,38,0.45)">hardest</span>
@@ -27,15 +25,13 @@
   </strong>
 </p>
 
-<p align="center">
+<p align="center" style="color:#71717a;font-size:0.92em;line-height:1.55;margin:0.2em 0 0.65em">
   200 bilingual tasks · proactive search in the wild · persona-driven progressive disclosure · schema-free knowledge graph evaluation
 </p>
 
-<p align="center">
+<p align="center" style="margin-bottom:1.75em">
   <b>200</b> Tasks &nbsp;·&nbsp; <b>20</b> Domains &nbsp;·&nbsp; <b>7</b> Models evaluated &nbsp;·&nbsp; Best triplet F1 <b>30.3</b>
 </p>
-
----
 
 Official code for **[VibeSearchBench](https://vibebench.github.io/VibeSearchBench.github.io/)** — benchmarking long-horizon proactive search with persona-driven multi-turn interaction and schema-free knowledge graph evaluation.
 
@@ -212,8 +208,6 @@ Two-phase LLM-as-judge evaluation:
 2. **Triplet matching**: For matched entity pairs, LLM judges relation semantic equivalence
 
 Metrics: Precision, Recall, F1 at both node and triplet levels, with avg@N and best@N aggregation across samples.
-
----
 
 <p align="center">
   VibeSearchBench · Rednote-Hilab &amp; Unipat AI
