@@ -30,7 +30,10 @@
 </p>
 
 <p align="center" style="margin-bottom:1.75em">
-  <b>200</b> Tasks &nbsp;·&nbsp; <b>20</b> Domains &nbsp;·&nbsp; <b>7</b> Models evaluated &nbsp;·&nbsp; Best triplet F1 <b>30.3</b>
+  <img src="https://img.shields.io/badge/Tasks-200-2563eb?style=flat-square" alt="200 Tasks" />
+  <img src="https://img.shields.io/badge/Domains-20-0891b2?style=flat-square" alt="20 Domains" />
+  <img src="https://img.shields.io/badge/Models-7-7c3aed?style=flat-square" alt="7 Models evaluated" />
+  <img src="https://img.shields.io/badge/Best_Triplet_F1-30.3-16a34a?style=flat-square" alt="Best triplet F1 30.3" />
 </p>
 
 Official code for **[VibeSearchBench](https://vibebench.github.io/VibeSearchBench.github.io/)** — benchmarking long-horizon proactive search with persona-driven multi-turn interaction and schema-free knowledge graph evaluation.
