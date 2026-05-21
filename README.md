@@ -42,8 +42,6 @@ Real users rarely specify full intent upfront. **VibeSearch** captures bidirecti
 | **VibeSearch-Pro** | 100 professional research scenarios — literature reviews, market analysis, technical due diligence |
 | **VibeSearch-Daily** | 100 daily-life search tasks — shopping, travel, lifestyle with vague initial queries |
 
-**Project page:** https://vibebench.github.io/VibeSearchBench.github.io/ · **Dataset:** [HuggingFace](https://huggingface.co/datasets/VibeSearchBench/VibeSearchBench) · **Website repo:** [VibeSearchBench.github.io](https://github.com/VibeBench/VibeSearchBench.github.io)
-
 ## Project Structure
 
 ```
