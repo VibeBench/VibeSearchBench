@@ -6,7 +6,7 @@
 
 [![Tasks](https://img.shields.io/badge/tasks-200-blue)](#tasks)
 [![Best F1](https://img.shields.io/badge/best_triplet_F1-30.3-green)](#leaderboard)
-[![Paper](https://img.shields.io/badge/paper-PDF-red)](https://vibebench.github.io/VibeSearchBench.github.io/assets/paper.pdf)
+[![Paper](https://img.shields.io/badge/paper-PDF-red)](https://huggingface.co/papers/2605.27882)
 [![Leaderboard](https://img.shields.io/badge/leaderboard-live-purple)](https://vibebench.github.io/VibeSearchBench.github.io/leaderboard.html)
 [![Project Page](https://img.shields.io/badge/project_page-live-2563eb)](https://vibebench.github.io/VibeSearchBench.github.io/)
 [![Dataset](https://img.shields.io/badge/🤗-Dataset-yellow)](https://huggingface.co/datasets/VibeSearchBench/VibeSearchBench)
